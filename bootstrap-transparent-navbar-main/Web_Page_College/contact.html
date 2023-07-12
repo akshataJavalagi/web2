@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>document</title>
+  </head>
+  <style>
+    .head1{
+        color:blue;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .PrincipalNo{
+        color:red;
+        font-size: 30px;
+        font-style: italic;
+    }
+    .EmailId{
+        color:red;
+        font-size: 30px;
+        font-style: italic;
+    }
+   
+    .dropdown{
+      /* margin-top: 10px; */
+      padding: 8px;
+    }
+</style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Web Page</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="ug.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">about us</a>
+             
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact us</a>
+            </li>
+           
+            <form class="dropdown"> 
+              <select name="select" onChange="window.open(this.options[this.selectedIndex].value,'_blank')"> 
+                <option value="">Courses</option> 
+                <option value="BCA.pdf">BCA</option> 
+                <option value="BBA.pdf">BBA</option> 
+              </select> 
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="PrincipalNo">Principal No</div>
+    <div class="head1">
+      The Principal
+MS Ramaiah College Of Arts Science and Commerce,
+MSR Nagar, MSRIT Post,Bangalore-54.
+Tel : – (91-80) – 23600966, 23608597
+    </div>
+    <div class="EmailId">EmailId</div>
+    <div class="head1">
+      Contact for Accounts & Academic Enquiries:
+The Manager-Accounts
+MS Ramaiah College Of Arts Science and Commerce MSR Nagar,
+MSRIT Post,Bangalore-54.
+Tel : (91-80) – 23600966, 23608597
+Email :accdept.msrcasc@gmail.com
+    </div>
+</body>
+</html>
